@@ -1,0 +1,56 @@
+.City {
+  border-radius: 10px;
+  padding: 5px;
+  display: inline;
+  border-color: hsla(53, 98%, 51%, 0.9045);
+}
+.Form-control {
+  border-radius: 10px;
+  padding: 5px;
+  border-color: hsla(53, 98%, 51%, 0.9045);
+  width: 100px;
+}
+.Currentlocation {
+  border-radius: 10px;
+  padding: 2px;
+  border-color: hsla(53, 98%, 51%, 0.9045);
+  background-color: #6ad5f8;
+  margin: 5px;
+  font-size: small;
+}
+h1 {
+  color: #0690be;
+  font-size: 30px;
+}
+p {
+  color: #0690be;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+.Description {
+  color: hsla(53, 98%, 51%, 0.9045);
+  margin: 0 auto;
+  font-size: 20px;
+}
+.CurrentTemp {
+  font-size: 30px;
+  color: hsla(53, 98%, 51%, 0.9045);
+  padding: auto;
+  margin: 0;
+}
+.Celsius,
+.Fahrenheit {
+  border: none;
+  color: #0690be;
+}
+.Weather-forecast {
+  color: #0690be;
+}
+.Pressure {
+  color: hsla(53, 98%, 51%, 0.904);
+  margin: 0;
+}
+.Humidity {
+  color: hsla(53, 98%, 51%, 0.904);
+}
