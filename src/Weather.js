@@ -62,7 +62,9 @@ export default function Weather() {
           <div className="Weather-forecast"></div>
         </div>
         <div>
-          <a href="https://github.com/kcshrad/my-project">Open source code</a>
+          <a href="https://github.com/kcshrad/react-weather">
+            Open source code
+          </a>
           ,by Shraddha Thapa
         </div>
       </div>
