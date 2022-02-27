@@ -29,13 +29,13 @@ p {
   margin: 0 auto;
 }
 .Description {
-  color: hsla(53, 98%, 51%, 0.9045);
+  color: #ffc107;
   margin: 0 auto;
   font-size: 20px;
 }
 .CurrentTemp {
   font-size: 30px;
-  color: hsla(53, 98%, 51%, 0.9045);
+  color: #ffc107;
   padding: auto;
   margin: 0;
 }
