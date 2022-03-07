@@ -1,0 +1,14 @@
+.WeatherForecast-day {
+  color: #0690be;
+  font-weight: bold;
+}
+
+.weatherForecast-temp-max {
+  font-weight: bold;
+  font-size: small;
+  color: #0690be;
+}
+.weatherForecast-temp-min {
+  font-size: small;
+  color: #0690be;
+}

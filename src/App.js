@@ -10,6 +10,10 @@ function App() {
           <Weather defaultCity="New York" />
         </div>
       </div>
+      <footer>
+        <a href="https://github.com/kcshrad/react-weather">Open source code</a>,
+        by Shraddha Thapa
+      </footer>
     </div>
   );
 }

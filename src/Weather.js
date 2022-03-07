@@ -4,6 +4,7 @@ import "./Weather.css";
 import "./App.css";
 
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -11,6 +12,7 @@ export default function Weather(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       date: new Date(response.data.dt * 1000),
       humidity: response.data.main.humidity,
@@ -44,8 +46,7 @@ export default function Weather(props) {
               <input
                 type="search"
                 placeholder="Enter city"
-                
-                autocomplete="off"
+                autoComplete="off"
                 className="City"
                 onChange={handleCityChange}
               />
@@ -56,10 +57,9 @@ export default function Weather(props) {
               <input type="Submit" value="Search" className="Form-control" />
             </div>
           </div>
-          <button className="Currentlocation">Current Location</button>
         </form>
-
         <WeatherInfo data={weatherData} />
+        <WeatherForecast coordinates={weatherData.coordinates} />
       </div>
     );
   } else {
